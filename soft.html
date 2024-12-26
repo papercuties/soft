@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>soft</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Times New Roman", serif;
+            background-color: black;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100vh;
+        }
+
+        .content {
+            margin: 20px;
+        }
+
+        h1, p, a {
+            font-size: 36px;
+            font-weight: normal;
+        }
+
+        .links {
+            margin-top: 20px;
+        }
+
+        .links a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            margin: 5px 0;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+
+        .player {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+        }
+
+        .player audio {
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>soft<br>papercuties</h1>
+
+        <div class="links">
+            <p>listen:</p>
+            <a href="https://soundcloud.com/papercuties/soft" target="_blank">soundcloud</a>
+            <a href="https://open.spotify.com/intl-it/track/17YBpPc19FMdewy4L61KnZ?si=40928ba49141421c" target="_blank">spotify</a>
+            <a href="https://papercuties.bandcamp.com/track/soft" target="_blank">bandcamp</a>
+            <a href="https://music.apple.com/it/album/soft/1764700388?i=1764700389" target="_blank">apple music</a>
+        </div>
+    </div>
+
+    <div class="player">
+        <audio controls>
+            <source src="soft%20Final.flac" type="audio/flac">
+            Your browser does not support the audio playback functionality.
+        </audio>
+    </div>
+</body>
+</html>
